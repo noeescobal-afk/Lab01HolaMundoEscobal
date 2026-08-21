@@ -22,7 +22,7 @@ class MainActivity : ComponentActivity() {
             Lab01HolaMundoTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Noe Escobal",
+                        name = "Jose Daniel",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -43,8 +43,9 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     Lab01HolaMundoTheme {
-        Greeting("Noe Escobal")
+        Greeting("Jose Daniel")
     }
 }
 //prueba
 //cambios
+//final
